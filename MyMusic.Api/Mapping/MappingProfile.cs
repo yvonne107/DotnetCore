@@ -1,6 +1,7 @@
 using AutoMapper;
 using MyMusic.Api.Resources;
 using MyMusic.Core.Models;
+using MyMusic.Core.Models.Auth;
 
 namespace MyMusic.Api.Mapping
 {

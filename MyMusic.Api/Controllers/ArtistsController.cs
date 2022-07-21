@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyMusic.Api.Resources;
 using MyMusic.Api.Validations;
@@ -9,7 +10,7 @@ using MyMusic.Core.Services;
 
 namespace MyMusic.Api.Controllers
 {
-    [Authoriza]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     
